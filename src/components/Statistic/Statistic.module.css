@@ -1,0 +1,38 @@
+.containerStatist {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  
+}
+
+.statText {
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+  min-width: 70px;
+  background-color: #ddd;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1),
+    0px -2px 4px rgba(255, 255, 255, 0.5);
+  border-radius: 40%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}   
+
+.statText:hover {
+  transform: translateY(-10px);
+}
+
+.statText:last-child {
+  position: absolute;
+  top: 100px;
+  background-color: aquamarine;
+}
+
+.valueOfStat {
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+}

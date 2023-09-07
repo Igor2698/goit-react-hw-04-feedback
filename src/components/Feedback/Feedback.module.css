@@ -1,0 +1,30 @@
+.button {
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  color: white;
+  transition: transform 500ms ease-in-out;
+  text-transform: capitalize;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.button:first-child {
+  background-color: green;
+}
+
+.button:nth-child(2) {
+  background-color: blue;
+}
+
+.button:nth-child(3) {
+  background-color: red;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}

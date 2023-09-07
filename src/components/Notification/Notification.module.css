@@ -1,0 +1,12 @@
+.textNotific {
+  max-width: 200px;
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  margin-right: auto;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 30px 20px;
+  background-color: bisque;
+  border-radius: 35%;
+}
